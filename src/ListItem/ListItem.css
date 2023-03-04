@@ -1,0 +1,54 @@
+.ListItem {
+    height: 180px;
+    margin-block-end: 30px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    box-shadow: rgb(29 71 123 / 4%) 0px 5px 10px, rgb(29 71 123 / 12%) 0px 1px 5px;
+    border-radius: 16px;
+}
+
+.ListItem-image {
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.ListItem-image-btn {
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ListItem-image-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+}
+
+.ListItem-desc {
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    color: #6e6e6e;
+}
+
+.ListItem-price {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}

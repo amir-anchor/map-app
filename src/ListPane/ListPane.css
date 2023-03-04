@@ -1,0 +1,30 @@
+.ListPane {
+    padding: 0 30px 30px;
+    flex: 1;
+    background-color: white;
+    overflow: auto;
+}
+
+.ListPane-sort-btn {
+    background-color: white;
+    padding: 4px;
+    border: 1px solid #6e6e6e;
+    color: #6e6e6e;
+    border-radius: 5px;
+    margin-inline-start: 5px;
+    cursor: pointer;
+}
+
+.ListPane-sort-btn-active {
+    border-color: black;
+    color: black;
+}
+
+.ListPane-ad {
+        padding: 20px;
+        margin-block-end: 30px;
+        box-shadow: rgb(29 71 123 / 4%) 0px 5px 10px, rgb(29 71 123 / 12%) 0px 1px 5px;
+        border-radius: 16px;
+        font-size: 18px;
+        font-weight: bold;
+}

@@ -1,0 +1,30 @@
+.Header {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgb(68 89 109 / 15%);
+    padding-inline: 20px;
+}
+
+.Header-search {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.Header-sign {
+    color: #1c85e8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Header-sign:hover {
+    text-decoration: underline;
+}
